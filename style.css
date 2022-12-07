@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+  border-radius: 10px;
+}
+
+html{
+  background: url(nen.jpg);
+  background-size: auto;
+  background-attachment: fixed;
+  backdrop-filter:unset;
+}
+body{
+  color: white;
+  font-family: 'Merriweather';
+  font-size: medium;
+
+  margin: 0;
+}
+
+.boundary{
+    border-radius: 5px;
+    width: 1000px;
+    background-color: rgba(61, 22, 22, 0.5);
+    margin: 0 auto;
+    padding: 20px;
+} 
+/* begin header */
+#menu {
+  border-radius: 10px;
+  position: sticky;
+  background-color:rgb(58, 21, 21);
+  height: 70px;
+  width: 100%;
+  top: 0%;
+}
+
+#menu label a img{
+  border-radius: 10px;
+  width : 150px;
+  height: 70px;
+}
+
+#menu ul {
+  list-style-type: none;
+  float :right ;
+  margin-right: 20px ;
+}
+
+#menu ul li{
+  display: inline-block;
+  margin: 0 5px;
+
+} 
+
+#menu li a{
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+
+#menu li a:hover{
+  background-color: rgba(162, 167, 171, 0.8);
+  border-radius: 10px;
+  color: black;
+} 
+
+#body{
+  list-style-type: none;
+  padding: 1px;
+
+  color: white;
+  
+}
+#main h1{
+  padding: 20px;
+  text-align: center;
+}
+
+#links ul{
+  border-radius: 10px;
+  
+  list-style-type: none;
+  margin: 20px ;
+}
+
+#links ul li{
+  display: inline-block;
+  margin: 0 30px;
+}
+
+#links a img{
+  display: flex;
+  justify-content: center;
+}
+
+#links li a p{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+#links a:hover{
+  color: red;
+}
+/* end header */
+#bottom {
+  background-color: #9c4343f0;
+  text-align: center;
+  list-style-type: none;
+}
+
+#bottom a{
+  color: white;
+  text-decoration: none;
+  padding:10px 0 0 10px;
+}
+
+#bottom a:hover{
+  color: red;
+}
+

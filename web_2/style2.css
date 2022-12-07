@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+  color: white;
+  font-family: 'Merriweather';
+  font-size: medium;
+
+  margin: 0;
+}
+html{
+    background: url(nen.jpg);
+    background-size: auto;
+    backdrop-filter:unset;
+}
+.boundary{
+  border-radius: 10px;
+    width: 1000px;
+    background-color: rgba(61, 22, 22, 0.5);
+    margin: 0 auto;
+    padding: 20px ;
+}
+
+/* begin header */
+#menu {
+  position: sticky;
+  border-radius: 10px;
+  background-color:rgb(58, 21, 21);
+  height: 70px;
+  width: 1000px;
+  top: 0%;
+}
+
+#menu label a img{
+  border-radius: 10px;
+  width : 150px;
+  height: 70px;
+}
+#menu ul {
+  
+  list-style-type: none;
+  float :right ;
+  margin-right: 20px ;
+}
+
+#menu ul li{
+  display: inline-block;
+  margin: 0 5px;
+
+} 
+#menu li a{
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+
+#menu li a:hover{
+  background-color: rgba(162, 167, 171, 0.8);
+  color: black;
+} 
+
+#main img{
+  border-radius: 5px;
+  width: 550px;
+  height: 360px;
+}
+#tieude{
+  padding: 40px 0 0 40px;
+}
+
+#main h3{
+  padding: 20px 0 15px 10px ;
+}
+#content{
+  line-height: 30px;
+  padding: 0 320px 0 40px;
+}
+#content div{
+  padding: 10px 0 0 0;
+} 
+
+/* footer */
+#footer {
+  background-color: #9c4343f0;
+  text-align:left;
+  list-style-type: none;
+  padding: 10px;
+}
+
+#footer a{
+  color: white;
+  text-decoration: none;
+  padding:10px 0 10px;
+}
+
+#footer a:hover{
+  color: red;
+}
